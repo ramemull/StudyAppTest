@@ -25,11 +25,11 @@ steps:
     sdk: 'iphonesimulator'
     configuration: 'Release'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
-#    scheme: 'MyScheme'
+    scheme: 'StudyAppTest'
     xcodeVersion: 'default'
     useXcpretty: true
     publishJUnitResults: true
-    args: '-destination "platform=iOS Simulator,name=iPhone 12"'
+    args: '-destination "platform=iOS Simulator,name=iPad Air (4th generation)"'
 - task: PublishTestResults@2
   displayName: 'Publishing test results'
   inputs:
