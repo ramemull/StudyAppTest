@@ -25,7 +25,7 @@ steps:
     sdk: 'iphonesimulator'
     configuration: 'Release'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
-    scheme: 'StudyAppTestTests'
+    scheme: 'StudyAppTest'
     xcodeVersion: 'default'
     useXcpretty: true
     publishJUnitResults: true
