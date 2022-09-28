@@ -11,4 +11,6 @@ struct ViewModel {
     func getEmail() -> String {
         return "a@a.com"
     }
+    func getName() {
+    }
 }
