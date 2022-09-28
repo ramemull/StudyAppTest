@@ -13,11 +13,10 @@ steps:
 - task: Xcode@5
   inputs:
     actions: 'build'
-    scheme: ''
+    scheme: 'StudyAppTest'
     sdk: 'iphoneos'
     configuration: 'Release'
     xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
-    scheme: 'StudyAppTest'
     xcodeVersion: 'default' # Options: 8, 9, 10, 11, 12, default, specifyPath
 - task: Xcode@5
   displayName: 'Running tests'
