@@ -16,6 +16,7 @@
 		2D2EC5FE28E306510098AAD6 /* StudyAppTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2EC5FD28E306510098AAD6 /* StudyAppTestTests.swift */; };
 		2D2EC60528E306840098AAD6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2EC60428E306840098AAD6 /* ViewModel.swift */; };
 		2D2EC60728E3071C0098AAD6 /* ViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2EC60628E3071B0098AAD6 /* ViewModelTests.swift */; };
+		2D2EC60B28E426C10098AAD6 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2EC60428E306840098AAD6 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -216,6 +217,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D2EC60728E3071C0098AAD6 /* ViewModelTests.swift in Sources */,
+				2D2EC60B28E426C10098AAD6 /* ViewModel.swift in Sources */,
 				2D2EC5FE28E306510098AAD6 /* StudyAppTestTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
